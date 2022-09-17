@@ -1,26 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
 <title>Rising Sun</title>
-
 <meta charset="utf-8">
-
 <link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
 <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
-<link rel="stylesheet" href="css/presentationCycle.css" type="text/css"/>
-
 <script type="text/javascript" src="js/jquery-1.4.2.min.js" ></script>
 <script type="text/javascript" src="js/cufon-yui.js"></script>
 <script type="text/javascript" src="js/cufon-replace.js"></script>
 <script type="text/javascript" src="js/Myriad_Pro_300.font.js"></script>
 <script type="text/javascript" src="js/Myriad_Pro_400.font.js"></script>
-<script type="text/javascript" src="js/script.js"></script>
-
-<script type='text/javascript' src='js/jquery.javaScript.js'></script>
-<script type='text/javascript' src='js/jquery.cycle.all.min.js'></script>
-<script type='text/javascript' src='js/presentationCycle.js'></script>
-
+<script type="text/javascript"  src="js/script.js"></script>
 <!--[if lt IE 7]>
 <link rel="stylesheet" href="css/ie6.css" type="text/css" media="screen">
 <script type="text/javascript" src="js/ie_png.js"></script>
@@ -28,8 +18,7 @@
 <![endif]-->
 <!--[if lt IE 9]><script type="text/javascript" src="js/html5.js"></script><![endif]-->
 </head>
-
-<body id="page1">
+<body id="page2">
 <!-- START PAGE SOURCE -->
 <div class="wrap">
   <header>
@@ -37,21 +26,18 @@
       <h1><a href="#">Student's site</a></h1>
       <nav>
         <ul>
-          <li class="current"><a href="index.html" class="m1">Home Page</a></li>
-          <li><a href="about-us.html" class="m2">About Us</a></li>
+          <li><a href="index.html" class="m1">Home Page</a></li>
+          <li ><a href="about-us.html" class="m2">About Us</a></li>
           <li><a href="courses.html" class="m3">Courses</a></li>
-          <li><a href="18_gallery.html" class="m4">GALLERY</a></li>
-          <li class="last"><a href="19_contact-us(slt).html" class="m5">Contact Us</a></li>
+          <li><a href="#" class="m4">gallery</a></li>
+          <li class="last"><a href="19_contact-us(slt).html" class="m5">Contact us</a></li>
         </ul>
       </nav>
-      <form action="#" id="search-form">
-        <fieldset>
-        </fieldset>
-      </form>
+      
     </div>
   </header>
   <div class="container">
-    <aside>
+     <aside>
       
       <ul>
         <li></li>
@@ -102,74 +88,86 @@
       </ul>
     </aside>
     <section id="content">
-    <div class="jqcontainer">      
-        <div id="presentation_container" class="pc_container">
-            
-            <div class="pc_item">
-            	<img src="images/slide1.jpg"/>
-            </div>
-            
-            <div class="pc_item">
-            	<img src="images/slide2.jpg"/>
-            </div>
-            
-            <div class="pc_item">
-                <img src="images/slide3.jpg"/>
-            </div>
-            
-            <div class="pc_item">
-                <img src="images/slide4.jpg"/>
-            </div>
-            
-            <div class="pc_item">
-                <img src="images/slide5.jpg"/>
-            </div>
-        </div>
-        
-        <script type="text/javascript">
-            presentationCycle.init();
-        </script>
-    
-        </div>
       <div class="inside">
-       
-        <p>&nbsp;</p>
-        <table width="600" height="293" border="5" cellpadding="5" cellspacing="0">
+        <table width="600" height="439" border="5" cellpadding="5" cellspacing="0">
           <tr>
-            <td colspan="2"><div align="center" class="txt1"><h2>PASSWORD UPDATION</h2></div></td>
+            <td width="304" height="30">Welcome </td>
+            <td width="262"><div align="left">
+              
+                <label for="name"></label>
+                <input type="text" name="name" id="name"  size="40">
+              
+            </div></td>
           </tr>
           <tr>
-            <td width="218">&nbsp;</td>
-            <td width="348">&nbsp;</td>
+            <td height="30">Your Contact number:</td>
+            <td><div align="left">
+              <input type="text" name="cont_no" id="cont_no"  size="40">
+            </div></td>
           </tr>
           <tr>
-            <td height="33" class="txt1">Enter User ID:</td>
-            <td>&nbsp;</td>
+            <td height="30">You Applied for:</td>
+            <td><div align="left">
+              <input type="text" name="apply" id="apply" size="40">
+            </div></td>
           </tr>
           <tr>
-            <td height="32" class="txt1">Enter your Contact Number:</td>
-            <td>&nbsp;</td>
+            <td height="30">Your Email ID:</td>
+            <td><div align="left">
+              <input type="text" name="e_mail" id="e_mail" size="40">
+            </div></td>
           </tr>
           <tr>
-            <td height="37" class="txt1">Enter Your New Password:</td>
-            <td>&nbsp;</td>
+            <td height="73" colspan="2">&nbsp;<h2> Check Your <span>Status Below</span></h2></td>
+          </tr>
+          <tr>
+            <td class="txt1"><div align="center">
+              <p>&nbsp;</p>
+              <p align="left">Thanks For Your Registration</p>
+              <p align="right"> Your Student ID :
+                <input type="text" name="s_id" id="s_id">
+              </p>
+              
+                <label for="s_id"></label>
+             
+            </div>
+            <div align="center"></div></td>
+            <td><div align="left"><img src="images/blue_tick2.png" alt="t1"  width="83" height="68" align="left"></div></td>
+          </tr>
+          <tr>
+            <td class="txt1"><div align="center">
+              <p>&nbsp;</p>
+              <p>Your documents are received</p>
+            </div></td>
+            <td><div align="left"><img src="images/blue_tick2.png" alt="t1"  width="83" height="68" align="left"></div></td>
+          </tr>
+          <tr>
+            <td class="txt1"><div align="center">
+              <p>&nbsp;</p>
+              <p>Admission Granted</p>
+            </div></td>
+            <td><div align="left"><img src="images/blue_tick2.png" alt="t1"  width="83" height="68" align="left"></div></td>
+          </tr>
+          <tr class="txt1">
+            <td ><input type="image" src="images/Blue12.png" alt="sign out" width="125" height="74" align="right"></td>
+          </tr>
+          <tr class="txt1">
+            <td colspan="2" style="visibility:hidden"><p>Congratulations ! You are selected for admission
+              </p>
+              <p><a href="15_feesMCA.html" class="txt1">Click Here For more Details of MCA candidates</a></p>
+              <p><a href="#" class="txt1">Click Here For more Details of MScIT candidates</a></p>
+              <p><a href="#" class="txt1">Click Here For more Details of MScMM candidates</a></p>
+            </td>
           </tr>
           <tr>
             <td>&nbsp;</td>
-            <td>&nbsp;</td>
+            <td><div align="left"></div></td>
           </tr>
           <tr>
             <td>&nbsp;</td>
-            <td><img src="images/Blue4.png" alt="submit" width="125" height="74" align="right"></td>
-          </tr>
-          <tr>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
+            <td><div align="left"></div></td>
           </tr>
         </table>
-        <h2><marquee behavior="alternate">
-        </marquee>
-        </h2>
         <p>&nbsp;</p>
         <p>&nbsp;</p>
         <p>&nbsp;</p>
@@ -182,5 +180,5 @@
 </footer>
 <script type="text/javascript"> Cufon.now(); </script>
 <!-- END PAGE SOURCE -->
-<div align=center></div></body>
+<div align=center></body>
 </html>
